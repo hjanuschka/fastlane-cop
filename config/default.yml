@@ -1,0 +1,9 @@
+---
+AllCops:
+  RSpec:
+    Patterns:
+    - "*.rb"
+
+Fastlane/EndNewLine:
+  Description: Check if there is a end without a following end, and missing a empty line
+  Enabled: true
